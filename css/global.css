@@ -315,4 +315,8 @@ font-size: 6rem; /*C大小*/
     background-color: rgba(0, 0, 0, 0);
 }
 
-
+/* 翻页按钮居中 */
+#pagination {
+    width: 100%;
+    margin: auto;
+  }
