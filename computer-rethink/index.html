@@ -193,7 +193,7 @@ frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolu
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://pl.yyt.gs/',
+      envId: 'https://pl.gsbok.cn/',
       region: '',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -205,7 +205,7 @@ frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolu
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://pl.yyt.gs/',
+      envId: 'https://pl.gsbok.cn/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
